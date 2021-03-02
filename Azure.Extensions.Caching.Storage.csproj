@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Data.Tables" Version="3.0.0-beta.5" />
+    <PackageReference Include="Azure.Storage.Blobs" Version="12.8.0" />
+    <PackageReference Include="Microsoft.Extensions.Caching.Abstractions" Version="5.0.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
+    <PackageReference Include="System.Linq.Async" Version="5.0.0" />
+  </ItemGroup>
+
+</Project>
